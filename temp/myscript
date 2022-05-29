@@ -1,0 +1,4 @@
+#!/bin/bash
+sy=2020
+sm=10
+sed -i -e "s/\(export LIST_FILES\)/\1=\"ufs.s2s.cold.cpl.r.${sy}-${sm}-01-03600.nc\"/" testfile

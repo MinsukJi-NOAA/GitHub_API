@@ -1,0 +1,13 @@
+curl -n -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MinsukJi-NOAA/ufs-weather-model/actions/runners/registration-token
+
+curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MJRCS/GHA-PR-test/actions/workflows
+
+curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MJRCS/GHA-PR-test/actions/workflows/2155412
+
+curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MJRCS/GHA-PR-test/actions/workflows/main.yml
+
+curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MJRCS/GHA-PR-test/actions/runs
+
+curl -X POST -u minsukji -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MJRCS/GHA-PR-test/actions/runs/204056267/cancel
+
+curl -X DELETE -u minsukji -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/MJRCS/GHA-PR-test/actions/runs/204056267
